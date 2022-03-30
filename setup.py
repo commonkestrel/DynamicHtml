@@ -9,6 +9,7 @@ setup(
     packages=find_packages(exclude=("tests")),
     version='1.0.0',
     description='An extremely simple library used for gathering html from dynamic webpages using Pyppeteer.',
+    url='https://github.com/Jibble330/DynamicHtml',
     author='Jibble',
     license='MIT',
     setup_requires=['pytest-runner'],
