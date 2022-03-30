@@ -7,11 +7,12 @@ README = (this_directory / "README.md").read_text()
 setup(
     name='DynamicHtml',
     packages=find_packages(exclude=("tests")),
-    version='1.0.0',
+    version='1.0.2',
     description='An extremely simple library used for gathering html from dynamic webpages using Pyppeteer.',
     url='https://github.com/Jibble330/DynamicHtml',
     author='Jibble',
     license='MIT',
+    install_requires=['pyppeteer'],
     setup_requires=['pytest-runner'],
     tests_require=['pytest==4.4.1'],
     python_requires='>= 3.4',

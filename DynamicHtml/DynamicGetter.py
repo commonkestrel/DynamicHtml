@@ -6,7 +6,7 @@ def DynamicHtml(url, script=None):
     return content
 
 async def DynamicHtmlGetter(url, script):
-    browser = await launch(headless=False)
+    browser = await launch(headless=True)
     page = await browser.newPage()
     await page.goto(url)
     if script:
